@@ -1,9 +1,10 @@
 import React from 'react'
 import '../styles/display.css'
-const Display = () => {
+
+const Display = ({ value }) => {
   return (
     <div className='DisplayDiv'>
-      <p>0</p>
+      <p>{parseFloat(parseFloat(value).toFixed(5))}</p>
     </div>
   )
 }
