@@ -1,0 +1,83 @@
+*{
+    margin-top:30px;
+}
+.Button{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.button{
+    width:90px;
+    height:90px;
+    font-size: 39px;
+    border-radius:50px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.Button > .button:nth-child(-n+3) {
+    background-color: rgb(181, 175, 175);
+    border:rgb(181, 175, 175);
+}
+
+.Button > .button:nth-child(-n+3):hover{
+    background-color: rgb(116, 114, 114);
+    border:rgb(116, 114, 114);
+}
+
+.Button > .button:nth-child(4), 
+.Button > .button:nth-child(8), 
+.Button > .button:nth-child(12), 
+.Button > .button:nth-child(16),
+.Button > .button:nth-child(19){
+    background-color: #f1a33c;
+    border:#f1a33c;
+    color: white;
+}
+.Button > .button:nth-child(17) {
+    grid-column: span 2;
+    width:190px;
+    display: flex;
+    justify-content: left;
+    padding:2rem;
+    align-items: center;
+}
+.Button > .button:nth-child(4), 
+.Button > .button:nth-child(8), 
+.Button > .button:nth-child(12), 
+.Button > .button:nth-child(16){
+    background-color: #f1a33c;
+    border: 2px solid #f1a33c; 
+    color: white;
+}
+
+.Button > .button:nth-child(5), 
+.Button > .button:nth-child(6), 
+.Button > .button:nth-child(7), 
+.Button > .button:nth-child(9),
+.Button > .button:nth-child(10),
+.Button > .button:nth-child(11),
+.Button > .button:nth-child(13),
+.Button > .button:nth-child(14),
+.Button > .button:nth-child(15),
+.Button > .button:nth-child(17),
+.Button > .button:nth-child(18){
+    background-color: #333333;
+    border: 2px solid #333333; 
+    color: white;
+}
+
+.Button > .button:nth-child(5):hover, 
+.Button > .button:nth-child(6):hover, 
+.Button > .button:nth-child(7):hover, 
+.Button > .button:nth-child(9):hover,
+.Button > .button:nth-child(10):hover,
+.Button > .button:nth-child(11):hover,
+.Button > .button:nth-child(13):hover,
+.Button > .button:nth-child(14):hover,
+.Button > .button:nth-child(15):hover,
+.Button > .button:nth-child(17):hover,
+.Button > .button:nth-child(18):hover {
+    background-color: #232323;
+    border:#232323;
+}

@@ -1,0 +1,13 @@
+.DisplayDiv {
+    margin-top:20px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    font-size:70px;
+    padding:0 1rem;
+}
+
+.DisplayDiv p {
+    margin-left:auto;   
+    margin-right:25px;
+}

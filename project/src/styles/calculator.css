@@ -1,0 +1,15 @@
+.CalculatorDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:1px solid black;
+    width: 420px;
+    height: 690px;
+    border-radius: 25px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
