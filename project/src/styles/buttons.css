@@ -9,7 +9,7 @@
 .button{
     width:90px;
     height:90px;
-    font-size: 39px;
+    font-size: 40px;
     border-radius:50px;
     margin: 6px;
     cursor: pointer;
@@ -80,4 +80,28 @@
 .Button > .button:nth-child(18):hover {
     background-color: #232323;
     border:#232323;
+}
+
+.Button > .button:nth-child(-n+3):active{
+    background-color: rgb(116, 114, 114);
+    border:rgb(116, 114, 114);
+}
+
+.Button > .button:nth-child(4):active, 
+.Button > .button:nth-child(8):active, 
+.Button > .button:nth-child(12):active, 
+.Button > .button:nth-child(16):active,
+.Button > .button:nth-child(19):active{
+    background-color: #f1a33c;
+    border:#f1a33c;
+    color: white;
+}
+
+.Button > .button:nth-child(4):hover, 
+.Button > .button:nth-child(8):hover, 
+.Button > .button:nth-child(12):hover, 
+.Button > .button:nth-child(16):hover,
+.Button > .button:nth-child(19):hover {
+    background-color: #ca8402;
+    border: #ca8402; 
 }
