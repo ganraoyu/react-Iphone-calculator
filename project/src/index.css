@@ -1,4 +1,4 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(172, 172, 178) 35%, rgb(23, 23, 23) 100%);
 }
