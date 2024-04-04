@@ -4,6 +4,9 @@
 
 This project is a clone of the iPhone calculator built using React. It includes all the basic calculator functions such as addition, subtraction, multiplication, and division.
 
+##Project Screenshot 
+![image](https://github.com/ganraoyu/react-Iphone-calculator/assets/115035161/e11d9946-fb2b-404d-9191-96c45fd5b90f)
+
 ## Installation
 
 1. Clone the repository: `https://github.com/ganraoyu/react-Iphone-calculator.git`
